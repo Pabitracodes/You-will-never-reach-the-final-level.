@@ -1262,3 +1262,19 @@ canvas {
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
 }
+#watermark-footer {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+  pointer-events: none;
+  z-index: 10000;
+}
+#watermark-footer span {
+  color: #DC143C;
+  font-family: 'Butcherman', cursive;
+  font-size: 1.15rem;
+  letter-spacing: 2px;
+  opacity: 0.5;
+}
